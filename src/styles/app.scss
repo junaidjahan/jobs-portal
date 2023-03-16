@@ -1,0 +1,27 @@
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+p{
+    margin: 0px !important;
+}
+
+.vl {
+    border-left: 1px solid;
+    height: 15px;
+}
+
+
+$primary:#ffff;
+$theme-colors: (
+    "primary": rgba(132, 119, 250, 1),
+    "danger": #ff4136,
+    "primary-light":rgba(132, 119, 250, 0.2)
+);
+ 
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-vue/src/index.scss';
+
+
